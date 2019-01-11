@@ -94,10 +94,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+    display: flex;
+    justify-content: center;
+}
+
 
 h1{
     text-align: center;
     font-family: 'Rock Salt', cursive;
+    font-size: 20px;
 
 }
 
@@ -105,14 +111,13 @@ h1{
     display: grid;
     grid-template-columns: repeat(3,auto);
     background-color:#00C5AC;
-    margin: auto;
     max-width: 100vh;
 }
 
 .case{
-  background-color:rgba(255, 255, 255, 0.1);
-  border: 5px solid black;
-  padding:50px;
+  background-color:rgba(255, 255, 255, 0);
+  border: 5px solid white;
+  padding:30px;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
